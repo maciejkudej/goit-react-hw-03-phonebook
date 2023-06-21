@@ -1,0 +1,27 @@
+.list {
+  width: 350px;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  margin-right: 15px;
+}
+.button__delete {
+  height: 30px;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.75);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 250ms linear;
+}
+
+.button__delete:hover,
+.button__delete:focus {
+  background-color: rgb(0, 255, 17);
+}
